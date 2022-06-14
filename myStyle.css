@@ -182,6 +182,7 @@ text-align: center;
 section.picks a{
     margin: 15px;
 }
+
 section.picks h3{
     /* text-transform: uppercase; */
     color: white;
@@ -198,4 +199,3 @@ div.topPicks img{
     margin: 0px 20px;
 }
 
-/* notes */
