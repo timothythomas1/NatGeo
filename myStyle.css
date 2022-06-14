@@ -1,0 +1,199 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Ubuntu',
+    sans-serif;
+    background-color: black;
+    color: white;
+}
+section img{
+    width: 100%;
+    /* height: 675px; */
+}
+a{
+    text-decoration: none;
+}
+nav.menu{
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 40px;
+}
+nav.menu .frame-logo{
+    height: 40px;
+}
+nav.menu a{
+    color: black;
+    /* margin-right: 30px; */
+}
+.complete-logo, .link-news, .link-menu, .link-search{
+    display: none;
+}
+.link-login{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+/* nav.menu a.link-subs{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: black;
+    color: white;
+    padding: 16px;
+
+    
+}
+nav.menu a.link-subs:hover{
+    background-color: #ffcc00;
+    color: black;
+} */
+/* text animation for header subscribe start------------------------------------------------ */
+.outer {
+    /* padding: 50px; */
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0px 20px;
+  }
+.sub-button {
+    /* border: 1px solid black; */
+    /* width: 100px; */
+    /* height: 30px; */
+    /* display: block; */
+    background: linear-gradient(to right, #ffcc00 50%, black 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .3s ease-out;
+  }
+.sub-button:hover {
+    background-position: left bottom;
+  }
+#text {
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 16px;
+    /* line-height: 30px;  */
+    color: white;
+    transition: all .3s ease-out;
+    display: block;
+    padding: 20px;
+  }
+#text:hover {
+    color: black;  
+
+  }
+/* text animation for header subscribe end ------------------------------------------------ */
+/* Header */
+header{
+    height: 240px;
+}
+header h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+header p{
+    text-align: center;
+    margin-top: 25px;
+}
+/* header .line{
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: #ffcc00;
+} */
+hr {
+    width: 40px;
+    margin: 25px auto;
+    background-color: #ffcc00;
+    height: 3px;
+
+    }
+header a{
+text-decoration-line: underline;
+text-decoration-color: #ffcc00;
+color: white;
+text-align: center;
+}
+/* text animation for header subscribe start------------------------------------------------ */
+.outer-header{
+    /* padding: 50px; */
+    display:inline-block;
+    font-weight: 700;
+    /* margin: 0px 20px; */
+    /* padding: 16px; */
+  }
+.sub-button-header {
+    /* border: 1px solid black; */
+    /* width: 100px; */
+    /* height: 30px; */
+    /* display: block; */
+   /* background-color: #ffcc00; */
+    /* background: linear-gradient(to top, #ffcc00 50%, black 50%); */
+    background-size: 200% 100%;
+    background-position: center top;
+    transition: all .3s ease-out;
+  }
+.sub-button-header:hover {
+    background-position: center bottom;
+  }
+#text-header {
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    transition: all .3s ease-out;
+    display: block;
+  }
+#text-header:hover {
+    color: black;  
+    background-color: #ffcc00;
+  }
+/* text animation for header subscribe end ------------------------------------------------ */
+/* .link-arrows{
+} */
+.line{
+    width: 15px;
+    color:yellow;
+}
+.flx-nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0px 10px;
+}
+section.picks a{
+    margin: 15px;
+}
+section.picks h3{
+    /* text-transform: uppercase; */
+    color: white;
+}
+
+.topPicks{
+    display: flex;
+    align-items: center;
+}
+
+div.topPicks img{
+    width: 200px;
+    height: 200px;
+    margin: 0px 20px;
+}
